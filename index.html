@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://kit.fontawesome.com/5e5c737a8c.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <title>King Espetinho</title>
+</head>
+<body onload="carregar()" id="home">
+    <header class="header">
+        <img src="./img/king-espetinho-png2.png" alt="logo king espetinho">
+        
+        <nav class="menu">
+            <ul class="nav-list">
+                <li class="itens"><i class="fa-solid fa-house"></i><a href="#home">Home</a></li>
+                <li class="itens"><i class="fa-solid fa-star"></i><a href="#benefits">Beneficios</a></li>
+                <li class="itens"><i class="fa-solid fa-burger"></i><a href="#cardapio">Cardapio</a></li>
+                <li class="itens"><i class="fa-solid fa-message"></i><a href="#pedido">Peça já</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </header>
+    <main>
+        <img class="imagem1" src="./img/image1.jpg" alt="imagem de um hamburguer">
+        <h2 id="open">Aqui vai o Texto se aberto ou não</h2>
+
+        <section id="benefits" class="benefits">
+            <div class="speed box">
+                <i class="fa-solid fa-motorcycle"></i>
+                <h2 class="benefits-title">Entrega Rápida</h2>
+                <p class="benefits-text">Priorizamos a rápida entrega para garantir sempre a satisfação do cliente.</p>
+            </div>
+            <div class="fresh-food box">
+                <i class="fa-solid fa-bowl-food"></i>
+                <h2 class="benefits-title">Alimentos Frescos</h2>
+                <p class="benefits-text">Utilizamos sempre alimentos frescos na produção dos lanches.</p>
+            </div>
+            <div class="several box">
+                <i class="fa-solid fa-bacon"></i>
+                <h2 class="benefits-title">Lanches Variados</h2>
+                <p class="benefits-text">Temos uma ampla variedade de lanches para você escolher.</p>
+            </div>
+        </section>
+        <img class="image2" src="./img/image3.jpg" alt="imagem da hamburgueria">
+
+        <section id="cardapio" class="cardapio">
+            <h2 class="cardapio-title">Cardápio</h2>
+            <div class="imagens">
+                <img class="card" src="./img/card1.jpg" alt="cardapio de churrasquinho">
+                <img class="card" src="./img/card2.jpg" alt="cardapio de hamburguers">
+                <img class="card" src="./img/card3.jpg" alt="cardapio de batatas">
+            </div>
+        </section>
+        <section id="pedido" class="pedido">
+            <h2 class="pedido-title">Faça seu pedido</h2>
+            <button class="btn"><i class="fa-brands fa-whatsapp"></i> Fale conosco!</button>
+        </section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1840.9250789522725!2d-43.12522575861082!3d-22.65937472628437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbr!4v1649566187883!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <footer class="footer">
+            <div class="information">
+                <ul class="adress">
+                    <li class="endereço">Endereço Local</li>
+                    <li class="endereço">Surui, Magé</li>
+                    <li class="endereço">Rua Ernesto teixera</li>
+                    <li class="endereço">N°302</li>
+                </ul>
+                <ul class="midias">
+                    <li class="rede">Midias Sociais</li>
+                    <li class="whats rede"><i class="fa-brands fa-whatsapp"></i> <a href="#">Whatsapp</a></li>
+                    <li class="insta rede"><i class="fa-brands fa-instagram"></i> <a target="_blank" href="https://www.instagram.com/espetinho_king/">Instagram</a></li>
+                </ul>
+            </div>
+            <div class="logo-copy">
+                <img src="./img/king-espetinho-png.png" alt="">
+                <p class="copy-text">Espetinho King &copy;2021 All rights reserved.</p>
+                <div class="policy">
+                    <p class="policy-part1">Terms of use</p>
+                    <p class="policy-part2">Privacy Policy</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+    <script src="mobile-navbar.js"></script>
+</body>
+</html>
